@@ -56,8 +56,9 @@ connecting MongoDB Atlas.
 ## Deploy to Vercel
 
 Import this repository with its root directory set to the repository root.
-`vercel.json` selects Vite, builds `frontend/dist`, and routes `/api/*` to the Express
-function. SPA routes such as `/shop` and `/cart` resolve to the frontend.
+`vercel.json` defines a Vite frontend service and an Express backend service on
+the same domain. Requests under `/api/*` reach Express with their original path;
+SPA routes such as `/shop` and `/cart` resolve to the frontend.
 
 Set `MONGODB_URI` in the Vercel project's environment settings for Production and
 Preview, then deploy. Do not upload `.env` files. No client-side API URL is needed
