@@ -1,0 +1,8 @@
+.demo-notice { background: #263f36; color: #fff; text-align: center; padding: 7px 12px; font-size: 12px; }
+.product-button { width: 100%; border: 0; background: transparent; font: inherit; }
+.product-button:disabled { opacity: 1; cursor: default; }
+.product-button .icon-cross { color: white; line-height: 35px; }
+.product-thumbnail img { max-width: 100px; }
+.quantity-container { min-width: 145px; }
+.quantity-container input { min-width: 45px; padding: 5px; }
+.table th, .table td { padding: 16px 8px; }
