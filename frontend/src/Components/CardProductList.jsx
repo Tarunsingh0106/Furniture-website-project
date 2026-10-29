@@ -8,7 +8,7 @@ export default function CardProductList({ one }) {
     if (!current.some(item => item.id === one.id)) writeCart([...current, { ...one, pQuantity: 1 }]);
   };
   return (
-    <div className="col-12 col-md-4 col-lg-3 mb-5">
+    <div className="col-6 col-md-4 col-lg-3 mb-4">
       <button type="button" className="product-item product-button" onClick={add} disabled={added} aria-label={`${added ? 'Added' : 'Add'} ${one.productName}${added ? '' : ' to cart'}`}>
         <img src={one.productImage} alt={one.productName} className="img-fluid product-thumbnail" />
         <h3 className="product-title">{one.productName}</h3>
