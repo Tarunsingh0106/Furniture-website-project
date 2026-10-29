@@ -2,16 +2,18 @@ import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { useCart } from '../cart';
 
-const links = [['home', '/', 'Home'], ['shop', '/shop', 'Shop'], ['about', '/about', 'About us'], ['service', '/services', 'Services'], ['blog', '/blog', 'Blog'], ['contact', '/contact', 'Contact us']];
+const links = [['home', '/', 'Home'], ['shop', '/shop', 'Shop'], ['about', '/about', 'About Us'], ['service', '/services', 'Services'], ['blog', '/blog', 'Design Journal'], ['contact', '/contact', 'Contact Us']];
 export default function Navbar({ one }) {
   const items = useCart();
   const [expanded, setExpanded] = useState(false);
   const count = items.reduce((sum, item) => sum + item.pQuantity, 0);
   return <>
-    <div className="demo-notice">Portfolio demo · No payments or product fulfilment</div>
+    <div className="demo-notice">
+      <span>🇮🇳 <strong>Furni India</strong> · Handcrafted Solid Teak &amp; Sheesham Furniture · Pan-India White Glove Delivery (Portfolio Demo)</span>
+    </div>
     <nav className="custom-navbar navbar navbar-expand-md navbar-dark bg-dark" aria-label="Furni navigation">
       <div className="container">
-        <Link className="navbar-brand" to="/">Furni<span>.</span></Link>
+        <Link className="navbar-brand" to="/">Furni<span className="text-secondary">.in</span></Link>
         <button className="navbar-toggler" type="button" onClick={() => setExpanded(!expanded)} aria-controls="navbarsFurni" aria-expanded={expanded} aria-label="Toggle navigation"><span className="navbar-toggler-icon" /></button>
         <div className={`collapse navbar-collapse${expanded ? ' show' : ''}`} id="navbarsFurni">
           <ul className="custom-navbar-nav navbar-nav ms-auto mb-2 mb-md-0">

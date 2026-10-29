@@ -18,7 +18,7 @@ test('catalog loads without a database and has unique numeric product IDs', asyn
 
 test('checkout uses catalog prices and rejects duplicate or invalid quantities', () => {
   const items = app.orderItems([{ id: 2, productPrice: 0.01, pQuantity: 3 }]);
-  assert.equal(items[0].productPrice * items[0].pQuantity, 150);
+  assert.equal(items[0].productPrice * items[0].pQuantity, 28497);
   for (const input of [[], [{ id: 2, pQuantity: 0 }], [{ id: 2, pQuantity: 1.5 }], [{ id: 2, pQuantity: 100 }], [{ id: 999, pQuantity: 1 }], [{ id: 2, pQuantity: 1 }, { id: 2, pQuantity: 2 }]]) assert.throws(() => app.orderItems(input));
 });
 

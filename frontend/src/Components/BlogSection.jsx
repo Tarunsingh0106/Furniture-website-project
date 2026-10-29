@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function BlogSection() {
   return (
@@ -7,34 +8,35 @@ function BlogSection() {
         <div className="container">
           <div className="row mb-5">
             <div className="col-md-6">
-              <h2 className="section-title">Recent Blog</h2>
+              <h2 className="section-title">Design Journal</h2>
+              <p className="text-muted">Stories on Indian woodcraft, festive styling, and care for modern homes.</p>
             </div>
             <div className="col-md-6 text-start text-md-end">
-              <a href="#" className="more">
-                View All Posts
-              </a>
+              <Link to="/blog" className="more">
+                View All Articles
+              </Link>
             </div>
           </div>
           <div className="row">
             <div className="col-12 col-sm-6 col-md-4 mb-4 mb-md-0">
               <div className="post-entry">
-                <a href="#" className="post-thumbnail">
+                <Link to="/blog" className="post-thumbnail">
                   <img
                     src="/images/post-1.jpg"
-                    alt="Image"
+                    alt="Sheesham vs Teak Wood for Indian Homes"
                     className="img-fluid"
                   />
-                </a>
+                </Link>
                 <div className="post-content-entry">
                   <h3>
-                    <a href="#">First Time Home Owner Ideas</a>
+                    <Link to="/blog">Sheesham vs Teak: Choosing Solid Wood for Indian Climates</Link>
                   </h3>
                   <div className="meta">
                     <span>
-                      by <a href="#">Kristin Watson</a>
+                      by <span className="text-dark">Tarun Singh</span>
                     </span>{" "}
                     <span>
-                      on <a href="#">Dec 19, 2021</a>
+                      on <span>Oct 24, 2026</span>
                     </span>
                   </div>
                 </div>
@@ -42,23 +44,23 @@ function BlogSection() {
             </div>
             <div className="col-12 col-sm-6 col-md-4 mb-4 mb-md-0">
               <div className="post-entry">
-                <a href="#" className="post-thumbnail">
+                <Link to="/blog" className="post-thumbnail">
                   <img
                     src="/images/post-2.jpg"
-                    alt="Image"
+                    alt="Protecting Wood Furniture During Indian Monsoons"
                     className="img-fluid"
                   />
-                </a>
+                </Link>
                 <div className="post-content-entry">
                   <h3>
-                    <a href="#">How To Keep Your Furniture Clean</a>
+                    <Link to="/blog">How to Protect Solid Wood Furniture During Indian Monsoons</Link>
                   </h3>
                   <div className="meta">
                     <span>
-                      by <a href="#">Robert Fox</a>
+                      by <span className="text-dark">Vikramaditya Rathore</span>
                     </span>{" "}
                     <span>
-                      on <a href="#">Dec 15, 2021</a>
+                      on <span>Sep 18, 2026</span>
                     </span>
                   </div>
                 </div>
@@ -66,23 +68,23 @@ function BlogSection() {
             </div>
             <div className="col-12 col-sm-6 col-md-4 mb-4 mb-md-0">
               <div className="post-entry">
-                <a href="#" className="post-thumbnail">
+                <Link to="/blog" className="post-thumbnail">
                   <img
                     src="/images/post-3.jpg"
-                    alt="Image"
+                    alt="Styling Cane and Brass in Indian Living Spaces"
                     className="img-fluid"
                   />
-                </a>
+                </Link>
                 <div className="post-content-entry">
                   <h3>
-                    <a href="#">Small Space Furniture Apartment Ideas</a>
+                    <Link to="/blog">5 Ways to Style Cane &amp; Brass Accents in Modern Living Rooms</Link>
                   </h3>
                   <div className="meta">
                     <span>
-                      by <a href="#">Kristin Watson</a>
+                      by <span className="text-dark">Meera Nambiar</span>
                     </span>{" "}
                     <span>
-                      on <a href="#">Dec 12, 2021</a>
+                      on <span>Aug 29, 2026</span>
                     </span>
                   </div>
                 </div>

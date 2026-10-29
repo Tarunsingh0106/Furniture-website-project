@@ -28,11 +28,25 @@ function ThankYouPage() {
                   />
                 </svg>
               </span>
-              <h2 className="display-3 text-black">{state?.orderId ? 'Thank you!' : 'Furni Demo'}</h2>
-              <p className="lead mb-5">{state?.orderId ? 'Your demo order was saved. No payment has been taken.' : 'Browse the collection to start a demo order.'}</p>
+              <h2 className="display-4 text-black mb-3">
+                {state?.orderId ? 'Dhanyavaad! Order Confirmed' : 'Furni India Demo'}
+              </h2>
+              <p className="lead mb-4 text-muted">
+                {state?.orderId
+                  ? `Your demo order (${state.orderId}) has been successfully recorded. In a production store, you would receive an instant WhatsApp & SMS update with delivery tracking.`
+                  : 'Explore our handcrafted collection of solid Sheesham and Teak wood furniture to place a demo order.'}
+              </p>
+              {state?.orderId && (
+                <div className="card max-w-md mx-auto p-4 mb-5 border rounded bg-white shadow-sm text-start" style={{ maxWidth: 500 }}>
+                  <h5 className="text-black fw-bold mb-3">Delivery Expectations</h5>
+                  <p className="mb-2 text-muted small"><i className="fa fa-truck text-primary me-2"></i> Pan-India white-glove transit: <strong>4–7 business days</strong></p>
+                  <p className="mb-2 text-muted small"><i className="fa fa-wrench text-primary me-2"></i> Free room-of-choice placement and on-site assembly</p>
+                  <p className="mb-0 text-muted small"><i className="fa fa-shield-alt text-primary me-2"></i> Covered by Furni India's 10-Year Woodcraft Warranty</p>
+                </div>
+              )}
               <p>
-                <Link to="/shop" className="btn btn-sm btn-outline-black">
-                  Back to shop
+                <Link to="/shop" className="btn btn-black px-4 py-2">
+                  Continue Exploring
                 </Link>
               </p>
             </div>

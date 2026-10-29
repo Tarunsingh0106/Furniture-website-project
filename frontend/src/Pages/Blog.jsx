@@ -10,7 +10,12 @@ function Blog() {
     <>
       {/* navbar */}
       <Navbar one={{ highlight: "blog" }} />
-      <Hero two={{ title: "Blog" }} />
+      <Hero
+        two={{
+          title: "The Indian Design Journal",
+          subtitle: "Expert insights on solid wood craftsmanship, seasonal timber care, and styling modern Indian interiors.",
+        }}
+      />
       {/* <h1>blog</h1> */}
       <BlogSection />
       <Testimonial />

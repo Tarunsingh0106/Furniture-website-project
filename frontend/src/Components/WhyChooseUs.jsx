@@ -7,10 +7,9 @@ function WhyChooseUs() {
         <div className="container">
           <div className="row justify-content-between">
             <div className="col-lg-6">
-              <h2 className="section-title">Why Choose Us</h2>
+              <h2 className="section-title">Why Choose Furni India</h2>
               <p>
-                Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet
-                velit. Aliquam vulputate velit imperdiet dolor tempor tristique.
+                We unite time-honored Indian woodworking heritage with modern minimalist aesthetics. Every creation is ethically crafted from seasoned hardwood to bring warmth, comfort, and heirloom quality to Indian homes.
               </p>
               <div className="row my-5">
                 <div className="col-6 col-md-6">
@@ -18,14 +17,13 @@ function WhyChooseUs() {
                     <div className="icon">
                       <img
                         src="/images/truck.svg"
-                        alt="Image"
+                        alt="Pan-India Shipping"
                         className="imf-fluid"
                       />
                     </div>
-                    <h3>Fast &amp; Free Shipping</h3>
+                    <h3>Pan-India Free Shipping</h3>
                     <p>
-                      Donec vitae odio quis nisl dapibus malesuada. Nullam ac
-                      aliquet velit. Aliquam vulputate.
+                      Insured white-glove delivery across 19,000+ pin codes, complete with room placement and packaging disposal.
                     </p>
                   </div>
                 </div>
@@ -34,14 +32,13 @@ function WhyChooseUs() {
                     <div className="icon">
                       <img
                         src="/images/bag.svg"
-                        alt="Image"
+                        alt="Seasoned Hardwood"
                         className="imf-fluid"
                       />
                     </div>
-                    <h3>Easy to Shop</h3>
+                    <h3>100% Seasoned Hardwood</h3>
                     <p>
-                      Donec vitae odio quis nisl dapibus malesuada. Nullam ac
-                      aliquet velit. Aliquam vulputate.
+                      Kiln-dried Indian Sheesham and Malabar Teak chemically seasoned against termites, borers, and monsoons.
                     </p>
                   </div>
                 </div>
@@ -50,14 +47,13 @@ function WhyChooseUs() {
                     <div className="icon">
                       <img
                         src="/images/support.svg"
-                        alt="Image"
+                        alt="Indian Design Support"
                         className="imf-fluid"
                       />
                     </div>
-                    <h3>24/7 Support</h3>
+                    <h3>Design Consultation</h3>
                     <p>
-                      Donec vitae odio quis nisl dapibus malesuada. Nullam ac
-                      aliquet velit. Aliquam vulputate.
+                      Our interior architects help you select wood finishes, fabric weaves, and dimensions tailored to your apartment layout.
                     </p>
                   </div>
                 </div>
@@ -66,14 +62,13 @@ function WhyChooseUs() {
                     <div className="icon">
                       <img
                         src="/images/return.svg"
-                        alt="Image"
+                        alt="10-Year Warranty"
                         className="imf-fluid"
                       />
                     </div>
-                    <h3>Hassle Free Returns</h3>
+                    <h3>10-Year Warranty</h3>
                     <p>
-                      Donec vitae odio quis nisl dapibus malesuada. Nullam ac
-                      aliquet velit. Aliquam vulputate.
+                      Complete peace of mind with 10-year structural coverage and hassle-free 7-day in-home trial support.
                     </p>
                   </div>
                 </div>
@@ -83,7 +78,7 @@ function WhyChooseUs() {
               <div className="img-wrap">
                 <img
                   src="/images/why-choose-us-img.jpg"
-                  alt="Image"
+                  alt="Handcrafted Indian Wooden Living Space"
                   className="img-fluid"
                 />
               </div>

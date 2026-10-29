@@ -8,7 +8,12 @@ function CheckOut() {
     <>
       {/* navbar */}
       <Navbar one={{ highlight: "cart" }} />
-      <Hero two={{ title: "Checkout" }} />
+      <Hero
+        two={{
+          title: "Secure Checkout",
+          subtitle: "Provide your delivery address in India for free white-glove delivery and room assembly.",
+        }}
+      />
       {/* <h1>check out</h1> */}
       <CheckoutSection />
       {/* footer */}

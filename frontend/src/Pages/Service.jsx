@@ -10,7 +10,12 @@ function Service() {
     <>
       {/* navbar */}
       <Navbar one={{ highlight: "service" }} />
-      <Hero two={{ title: "Services" }} />
+      <Hero
+        two={{
+          title: "Bespoke Interior & Furniture Services",
+          subtitle: "From custom wood staining and apartment layout planning to pan-India white-glove installation, we provide complete interior support.",
+        }}
+      />
       {/* <h1>service</h1> */}
       <WhyChooseUs />
       <ProductSection />

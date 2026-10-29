@@ -2,22 +2,22 @@ import React, { useState } from "react";
 
 const testimonials = [
   {
-    quote: "“Donec facilisis quam ut purus rutrum lobortis...",
-    name: "Maria Jones",
-    position: "CEO, Co-Founder, XYZ Inc.",
+    quote: "“The Malabar Solid Teak chairs arrived in pristine condition at our Bengaluru home. The rich wood grain, satin touch, and solid weight reflect genuine artisanal craftsmanship. Easily the centerpiece of our living space.”",
+    name: "Ananya Iyer",
+    position: "Architect & Urban Planner, Bengaluru",
     image: "/images/person-1.png",
   },
   {
-    quote: "“Another testimonial example...",
-    name: "John Doe",
-    position: "CTO, ABC Corp.",
-    image: "/images/person-1.png",
+    quote: "“Finding solid Sheesham furniture that withstands Mumbai monsoons without creaking or swelling was tough until we found Furni India. Their seasoned timber and flawless joinery have stayed immaculate through two rainy seasons.”",
+    name: "Rohan Malhotra",
+    position: "Creative Director, Bandra (Mumbai)",
+    image: "/images/person_2.jpg",
   },
   {
-    quote: "“A different testimonial...",
-    name: "Jane Smith",
-    position: "Lead Developer, QRS Ltd.",
-    image: "/images/person-1.png",
+    quote: "“White-glove delivery in South Delhi was exceptionally smooth. The Jodhpur cane armchair brings together Rajasthan’s artisanal heritage and modern clean lines beautifully. Guests compliment it constantly!”",
+    name: "Pooja Singhania",
+    position: "Interior Stylist, Greater Kailash (New Delhi)",
+    image: "/images/person_3.jpg",
   },
 ];
 

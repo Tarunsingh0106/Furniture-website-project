@@ -9,7 +9,12 @@ function Cart() {
     <>
       {/* navbar */}
       <Navbar one={{highlight:"cart"}}/>
-      <Hero two={{title:"Cart"}}/>
+      <Hero
+        two={{
+          title: "Your Shopping Cart",
+          subtitle: "Review your selected solid wood pieces and proceed with free pan-India white-glove delivery.",
+        }}
+      />
       {/* <h1>cart</h1> */}
       <CartPage/>
       {/* footer */}

@@ -11,7 +11,12 @@ function About() {
     <>
       {/* navbar */}
       <Navbar one={{ highlight: "about" }} />
-      <Hero two={{ title: "About us" }} />
+      <Hero
+        two={{
+          title: "Artisanal Heritage & Modern Design",
+          subtitle: "Rooted in India's rich traditions of master woodworking, Furni India creates heirloom timber furniture for contemporary living.",
+        }}
+      />
       {/* <h1>about</h1> */}
       <WhyChooseUs />
       <OurTeams />

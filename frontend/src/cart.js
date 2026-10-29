@@ -32,3 +32,6 @@ export function useCart() {
 }
 
 export const cartTotal = items => items.reduce((sum, item) => sum + item.productPrice * item.pQuantity, 0);
+
+export const formatINR = value => '₹' + Number(value || 0).toLocaleString('en-IN');
+

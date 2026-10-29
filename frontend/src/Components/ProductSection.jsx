@@ -8,18 +8,16 @@ function ProductSection() {
         <div className="container">
           <div className="row">
             {/* Start Column 1 */}
-            
             <div className="col-md-12 col-lg-3 mb-5 mb-lg-0">
               <h2 className="mb-4 section-title">
-                Crafted with excellent material.
+                Crafted with Seasoned Indian Timber
               </h2>
               <p className="mb-4">
-                Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet
-                velit. Aliquam vulputate velit imperdiet dolor tempor tristique.{" "}
+                Handcrafted from sustainably sourced Malabar Teak and kiln-dried Rajasthani Sheesham. Every joint is engineered to endure diverse Indian climates for generations.
               </p>
               <p>
                 <a href="/shop" className="btn">
-                  Explore
+                  Explore Collection
                 </a>
               </p>
             </div>
@@ -29,8 +27,8 @@ function ProductSection() {
               one={{
                 id: 2,
                 productImage: "/images/product-1.png",
-                productName: "Nordic Chair",
-                productPrice: 50,
+                productName: "Malabar Solid Teak Chair",
+                productPrice: 9499,
               }}
             />
             {/* End Column 2 */}
@@ -39,8 +37,8 @@ function ProductSection() {
               one={{
                 id: 3,
                 productImage: "/images/product-2.png",
-                productName: "Kruzo Aero Chair",
-                productPrice: 78,
+                productName: "Jodhpur Cane & Sheesham Armchair",
+                productPrice: 14999,
               }}
             />
             {/* End Column 3 */}
@@ -49,8 +47,8 @@ function ProductSection() {
               one={{
                 id: 4,
                 productImage: "/images/product-3.png",
-                productName: "Ergonomic Chair",
-                productPrice: 43,
+                productName: "Bengaluru Ergonomic Study Chair",
+                productPrice: 12499,
               }}
             />
             {/* End Column 4 */}

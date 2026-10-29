@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function PopularProduct() {
   return (
@@ -11,18 +12,17 @@ function PopularProduct() {
                 <div className="thumbnail">
                   <img
                     src="/images/product-1.png"
-                    alt="Image"
+                    alt="Malabar Solid Teak Chair"
                     className="img-fluid"
                   />
                 </div>
                 <div className="pt-3">
-                  <h3>Nordic Chair</h3>
+                  <h3>Malabar Solid Teak Chair</h3>
                   <p>
-                    Donec facilisis quam ut purus rutrum lobortis. Donec vitae
-                    odio{" "}
+                    Crafted from plantation-grown teakwood with ergonomic curved lumbar support and a natural hand-rubbed finish.
                   </p>
                   <p>
-                    <a href="#">Read More</a>
+                    <Link to="/shop">Explore Piece</Link>
                   </p>
                 </div>
               </div>
@@ -32,18 +32,17 @@ function PopularProduct() {
                 <div className="thumbnail">
                   <img
                     src="/images/product-2.png"
-                    alt="Image"
+                    alt="Jodhpur Cane & Sheesham Armchair"
                     className="img-fluid"
                   />
                 </div>
                 <div className="pt-3">
-                  <h3>Kruzo Aero Chair</h3>
+                  <h3>Jodhpur Cane &amp; Sheesham</h3>
                   <p>
-                    Donec facilisis quam ut purus rutrum lobortis. Donec vitae
-                    odio{" "}
+                    Hand-woven natural cane backrest anchored to a seasoned Sheesham frame, ideal for breezy Indian living rooms.
                   </p>
                   <p>
-                    <a href="#">Read More</a>
+                    <Link to="/shop">Explore Piece</Link>
                   </p>
                 </div>
               </div>
@@ -53,18 +52,17 @@ function PopularProduct() {
                 <div className="thumbnail">
                   <img
                     src="/images/product-3.png"
-                    alt="Image"
+                    alt="Bengaluru Ergonomic Study Chair"
                     className="img-fluid"
                   />
                 </div>
                 <div className="pt-3">
-                  <h3>Ergonomic Chair</h3>
+                  <h3>Bengaluru Ergonomic Chair</h3>
                   <p>
-                    Donec facilisis quam ut purus rutrum lobortis. Donec vitae
-                    odio{" "}
+                    Engineered for long remote-work sessions, featuring high-density cushioning upholstered in breathable cotton linen.
                   </p>
                   <p>
-                    <a href="#">Read More</a>
+                    <Link to="/shop">Explore Piece</Link>
                   </p>
                 </div>
               </div>

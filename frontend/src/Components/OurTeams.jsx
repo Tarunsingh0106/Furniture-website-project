@@ -19,8 +19,9 @@ function OurTeams() {
       <div className="untree_co-section">
         <div className="container">
           <div className="row mb-5">
-            <div className="col-lg-5 mx-auto text-center">
-              <h2 className="section-title">Our Team</h2>
+            <div className="col-lg-7 mx-auto text-center">
+              <h2 className="section-title">Our Master Artisans &amp; Designers</h2>
+              <p className="text-muted">Meet the woodcraft masters, heritage artisans, and interior architects behind Furni India.</p>
             </div>
           </div>
           <div className="row">

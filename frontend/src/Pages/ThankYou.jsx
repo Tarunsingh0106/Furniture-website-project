@@ -9,7 +9,8 @@ function ThankYou() {
       <Navbar one={{ highlight: "cart" }} />
       <Hero
         two={{
-          title: "Cart",
+          title: "Order Confirmation",
+          subtitle: "Thank you for choosing Furni India. Your demo order details and pan-India white-glove delivery.",
         }}
       />
       <ThankYouPage />

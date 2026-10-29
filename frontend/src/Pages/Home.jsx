@@ -16,7 +16,8 @@ function Home() {
       <Navbar one={{ highlight: "home" }} />
       <Hero
         two={{
-          title: "Modern Interior Design Studio",
+          title: "Modern Solid Wood Living for Indian Homes",
+          subtitle: "Centuries of traditional woodcraft heritage reimagined with sleek contemporary lines. Handcrafted from seasoned Sheesham and Malabar Teak.",
         }}
       />
       <ProductSection />

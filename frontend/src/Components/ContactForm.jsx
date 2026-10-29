@@ -74,7 +74,8 @@ function ContactForm() {
                       </div>{" "}
                       {/* /.icon */}
                       <div className="service-contents">
-                        <p>Jaipur, Rajasthan</p>
+                        <p className="mb-0 fw-medium">Studio &amp; Workshop</p>
+                        <p className="small text-muted mb-0">C-Scheme, Jaipur, Rajasthan 302001</p>
                       </div>{" "}
                       {/* /.service-contents*/}
                     </div>{" "}
@@ -100,7 +101,8 @@ function ContactForm() {
                       </div>{" "}
                       {/* /.icon */}
                       <div className="service-contents">
-                        <p>tarunsingh152000@gmail.com</p>
+                        <p className="mb-0 fw-medium">Email Studio</p>
+                        <p className="small text-muted mb-0">tarunsingh152000@gmail.com</p>
                       </div>{" "}
                       {/* /.service-contents*/}
                     </div>{" "}
@@ -129,9 +131,8 @@ function ContactForm() {
                       </div>{" "}
                       {/* /.icon */}
                       <div className="service-contents">
-                        <p>
-                          +91 9024349037
-                        </p>
+                        <p className="mb-0 fw-medium">Direct Line</p>
+                        <p className="small text-muted mb-0">+91 90243 49037 (10 AM - 7 PM IST)</p>
                       </div>{" "}
                       {/* /.service-contents*/}
                     </div>{" "}
@@ -150,6 +151,7 @@ function ContactForm() {
                           type="text"
                           className="form-control"
                           id="fname"
+                          placeholder="e.g. Tarun"
                           onChange={(e) => handleChange(e)}
                           value={formData1["firstName"]}
                         />
@@ -167,6 +169,7 @@ function ContactForm() {
                           type="text"
                           className="form-control"
                           id="lname"
+                          placeholder="e.g. Singh"
                         />
                       </div>
                     </div>
@@ -176,7 +179,7 @@ function ContactForm() {
                       Email address
                     </label>
                     <input required maxLength={200} type="email" onChange={(e) => handleChange2(e)}
-                      value={formData3["email"]} className="form-control" id="email" />
+                      value={formData3["email"]} className="form-control" id="email" placeholder="e.g. yourname@example.com" />
                   </div>
                   <div className="form-group mb-5">
                     <label className="text-black" htmlFor="message">
@@ -190,6 +193,7 @@ function ContactForm() {
                       id="message"
                       cols={30}
                       rows={5}
+                      placeholder="Tell us about your home layout, bespoke teak/sheesham requirements, or delivery query..."
                     />
                   </div>
                   <button

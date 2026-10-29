@@ -9,7 +9,12 @@ function Contact() {
     <>
       {/* navbar */}
       <Navbar one={{ highlight: "contact" }} />
-      <Hero two={{ title: "Contact" }} />
+      <Hero
+        two={{
+          title: "Connect with Our Design Studio",
+          subtitle: "Reach out to our Jaipur & Bengaluru teams for custom solid-timber enquiries, material consultations, or order queries.",
+        }}
+      />
       {/* <h1>contact</h1> */}
       <ContactForm />
       {/* footer */}

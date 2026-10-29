@@ -1,4 +1,4 @@
-import { useCart, readCart, writeCart } from '../cart';
+import { useCart, readCart, writeCart, formatINR } from '../cart';
 
 export default function CardProductList({ one }) {
   const cart = useCart();
@@ -12,7 +12,7 @@ export default function CardProductList({ one }) {
       <button type="button" className="product-item product-button" onClick={add} disabled={added} aria-label={`${added ? 'Added' : 'Add'} ${one.productName}${added ? '' : ' to cart'}`}>
         <img src={one.productImage} alt={one.productName} className="img-fluid product-thumbnail" />
         <h3 className="product-title">{one.productName}</h3>
-        <strong className="product-price">${one.productPrice.toFixed(2)}</strong>
+        <strong className="product-price">{formatINR(one.productPrice)}</strong>
         <span className="icon-cross">{added ? <span aria-hidden="true">✓</span> : <img src="/images/cross.svg" alt="" className="img-fluid" />}</span>
       </button>
     </div>
